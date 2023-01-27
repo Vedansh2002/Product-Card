@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    background-color: #F7EFE5;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    /* margin-top: 200px;
+    margin-left: 450px; */
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    border-radius: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#box1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(mug.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#coffee{
+    padding-left: 20px;
+    color: silver;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+#white{
+    padding-left: 20px;
+    font-size:x-large;
+    margin: 20px;
+}
+
+#midpara{
+    padding-left: 20px;
+    color: silver;
+    letter-spacing: 2px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#price{
+    padding-left: 20px;
+    color: silver;
+    letter-spacing: 2px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+span{
+    font-size: 30px;
+    color: #3C6255;
+}
+
+.footer{
+    padding-left: 20px;
+    height: 50px;
+    color: white;
+    background-color: #3C6255;
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer:hover{
+    padding-left: 20px;
+    height: 50px;
+    color: white;
+    background-color: #3D5656;
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
